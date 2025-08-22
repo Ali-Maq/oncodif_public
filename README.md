@@ -2,7 +2,7 @@
 
 **An Auditable AI Framework for Automated Genomic Curation and Natural-Language Clinical Querying in Precision Oncology**
 
-[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Research](https://img.shields.io/badge/Research-Precision%20Oncology-green.svg)](https://github.com/Ali-Maq/oncodif_public)
 
@@ -53,6 +53,8 @@ A comprehensive AI framework that provides:
 📄 Literature Input → 🧠 ReACT Reasoning → 📊 CIViC-Compatible Output
 ```
 
+![](images/phase1.png)
+
 * **Technology** : Reason-Action-Conclude-Think (ReACT) paradigm with DSPy framework
 * **Model** : GPT-4.1 fine-tuned on 1,300 CIViC-validated publications
 * **Output** : Structured evidence items with complete reasoning traces
@@ -63,6 +65,7 @@ A comprehensive AI framework that provides:
 ```
 🗣️ Clinical Query → 🔄 LoRA Fine-tuned Model → 💾 Executable SQL
 ```
+![](images/phase2.png)
 
 * **Technology** : LoRA-tuned Llama-3.2 3B model on Fireworks AI platform
 * **Training Data** : 21,000 synthetic question-SQL pairs across 4 complexity tiers
@@ -74,7 +77,7 @@ A comprehensive AI framework that provides:
 ```
 ❓ Clinical Question → 🧠 Multi-Step Reasoning → 🏥 Clinical Recommendation
 ```
-
+![](images/phase3.png)
 * **Technology** : GPT-4.1-driven query clarification and result interpretation
 * **Features** : Entity canonicalization, synonym resolution, clinical context integration
 * **Interface** : Streamlit web application for intuitive clinical workflows
@@ -161,9 +164,13 @@ Each evidence item includes:
 
 ---
 
-## 🖥️ **Streamlit Clinical Interface**
+## 🖥️ **Clinical Interface**
 
-*[Screenshot of the Streamlit interface will be added here showing the clinical workflow]*
+![](images/demo1.png)
+
+![](images/demo2.png)
+![](images/demo3.png)
+![](images/demo4.png)
 
 ### **Interface Features:**
 
@@ -257,7 +264,7 @@ streamlit run phase3_clinical_reasoning_interface/streamlit_clinical_interface.p
 
 ### **System Architecture**
 
-*[Architecture diagram showing the three-phase workflow with ReACT reasoning, LoRA fine-tuning, and clinical interface]*
+
 
 ### **Performance Comparison**
 
