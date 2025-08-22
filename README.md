@@ -251,32 +251,6 @@ recommendation = clinical_system.process_clinical_query(clinical_query)
 # Output: Clinical recommendations with evidence levels and reasoning
 ```
 
-#### **Run Streamlit Interface**
-
-```bash
-# Start the clinical interface
-streamlit run phase3_clinical_reasoning_interface/streamlit_clinical_interface.py
-```
-
----
-
-## 📊 **Research Paper Figures and Tables**
-
-### **System Architecture**
-
-
-
-### **Performance Comparison**
-
-*[Performance comparison table showing improvements over baseline methods]*
-
-### **Training Metrics**
-
-*[Training loss curves and accuracy metrics for Phase 2 LoRA fine-tuning]*
-
-### **Clinical Workflow Screenshots**
-
-*[Screenshots demonstrating the clinical interface and reasoning process]*
 
 ---
 
